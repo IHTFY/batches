@@ -6,8 +6,8 @@ Some useful windows batch script files. Mostly video manipulation using [ffmpeg]
 
 Download all of a user's SoundCloud likes to a folder.
 
-- `uid`: The SoundCloud username from the url
-- `dest`: The path to the folder to save the music
+- `uid` - The SoundCloud username from the url
+- `dest` - The path to the folder to save the music
   - Use `%uid%` to reference the username in the folder/path
 
 
@@ -16,8 +16,8 @@ Download all of a user's SoundCloud likes to a folder.
 
 Combine multiple videos into a single video.
 
-- `*.mp4`: Set the extension to search for
-- `output.mp4`: Set the name of the output file
+- `*.mp4` - Set the extension to search for
+- `output.mp4` - Set the name of the output file
 
 Place the batch in a folder with your mp4 files and run.
 
@@ -27,8 +27,8 @@ Place the batch in a folder with your mp4 files and run.
 
 Convert all files in a folder.
 
-- `*.wav`: Set the input filetype
-- `.mp3`: Set the output filetype
+- `*.wav` - Set the input filetype
+- `.mp3` - Set the output filetype
 
 Place the batch in a folder with your wav files and run.
 
@@ -38,8 +38,8 @@ Place the batch in a folder with your wav files and run.
 
 Extract the frames of all mp4 files into a folder.
 
-- `*.mp4`: Set the extension to search for
-- `06d.jpg`: Pad the files with zero up to length 6.
+- `*.mp4` - Set the extension to search for
+- `06d.jpg` - Pad the files with zero up to length 6.
 
 - Create a folder called `frames` next to your videos
 - Place the batch in a folder with your mp4 files and run.
@@ -50,7 +50,7 @@ Extract the frames of all mp4 files into a folder.
 
 Same as folder2frames.bat but only uses every 5th frame.
 
-- `-r 5`: Change `5` to a positive whole number to take every nth frame
+- `-r 5` - Change `5` to a positive whole number to take every nth frame
 
 Place the batch in a folder with your mp4 files and run.
 
@@ -60,9 +60,9 @@ Place the batch in a folder with your mp4 files and run.
 
 Save a livestream with an .m3u8 manifest file.
 
-- `Stream Link`: The url to the .m3u8 (could be a downloaded .m3u8 only if the chunks have absolute paths, but that is rare)
-- `Filename`: The filename of the output file
-- `C:...`: Set the path to the output file. Use `%name` to use the input filename
+- `Stream Link` - The url to the .m3u8 (could be a downloaded .m3u8 only if the chunks have absolute paths, but that is rare)
+- `Filename` - The filename of the output file
+- `C:...` - Set the path to the output file. Use `%name` to use the input filename
 
 Run the batch file then input the `url` and `filename`.
 
@@ -72,7 +72,7 @@ Run the batch file then input the `url` and `filename`.
 
 Create a trimmed video using timestamps.
 
-- `Start Time`: The time to start the clip, e.g. `01:02:03` for 1 hour, 2 minutes, 3 seconds
-- `End Time`: The time to stop the clip
+- `Start Time` - The time to start the clip, e.g. `01:02:03` for 1 hour, 2 minutes, 3 seconds
+- `End Time` - The time to stop the clip
 
 Drag the video onto the batch file and input the timestamps
