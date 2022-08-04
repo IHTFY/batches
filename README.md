@@ -1,8 +1,8 @@
 # batches
-Some useful windows batch script files
+Some useful windows batch script files. Mostly video manipulation using [ffmpeg](https://ffmpeg.org/download.html#build-windows) and [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation).
 
 ## SCLikes.bat
-> Requires yt-dlp or youtube-dl
+> Requires [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation) or [youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html)
 
 Download all of a user's SoundCloud likes to a folder.
 
@@ -12,7 +12,7 @@ Download all of a user's SoundCloud likes to a folder.
 
 
 ## concat.bat
-> Requires ffmpeg
+> Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
 
 Combine multiple videos into a single video.
 
@@ -23,7 +23,7 @@ Place the batch in a folder with your mp4 files and run.
 
 
 ## convert.bat
-> Requires ffmpeg
+> Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
 
 Convert all files in a folder.
 
@@ -34,7 +34,7 @@ Place the batch in a folder with your wav files and run.
 
 
 ## folder2frames.bat
-> Requires ffmpeg
+> Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
 
 Extract the frames of all mp4 files into a folder.
 
@@ -46,7 +46,7 @@ Extract the frames of all mp4 files into a folder.
 
 
 ## folder2frames5fps.bat
-> Requires ffmpeg
+> Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
 
 Same as folder2frames.bat but only uses every 5th frame.
 
@@ -56,7 +56,7 @@ Place the batch in a folder with your mp4 files and run.
 
 
 ## m3u8.bat
-> Requires ffmpeg
+> Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
 
 Save a livestream with an .m3u8 manifest file.
 
@@ -68,7 +68,7 @@ Run the batch file then input the `url` and `filename`.
 
 
 ## trim.bat
-> Requires ffmpeg
+> Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
 
 Create a trimmed video using timestamps.
 
