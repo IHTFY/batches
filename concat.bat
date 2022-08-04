@@ -1,3 +1,4 @@
+REM combine all mp4 files in a directory into a single video
 for %%f in (*.mp4) do (
     echo file '%%f' >> list.txt
 )
