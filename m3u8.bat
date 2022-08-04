@@ -1,3 +1,4 @@
+REM save a live m3u8 stream
 @ECHO OFF
 SET /p url=Stream Link: 
 SET /p name=Filename: 

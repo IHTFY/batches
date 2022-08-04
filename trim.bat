@@ -1,3 +1,4 @@
+REM trim a video using start and end timestamps. Drag the video onto this batch file
 @ECHO OFF
 ECHO Drag video onto this batch file.
 SET /p startT=Start Time (HH:MM:SS): 
