@@ -33,6 +33,17 @@ Convert all files in a folder.
 Place the batch in a folder with your wav files and run.
 
 
+## convert_recursive.bat
+> Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
+
+Convert all files in all subfolders.
+
+- `*` - Find all files
+- `.mp3` - Set the output filetype
+
+Place the batch in the parent folder with your flac/wav files and run. You can try specifying `*.flac` but there may be problems with filenames containing apostrophes.
+
+
 ## folder2frames.bat
 > Requires [ffmpeg](https://ffmpeg.org/download.html#build-windows)
 
