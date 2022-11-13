@@ -1,5 +1,5 @@
 # batches
-Some useful windows batch script files. Mostly video manipulation using [ffmpeg](https://ffmpeg.org/download.html#build-windows) and [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation).
+Some useful windows batch script files. Mostly video manipulation using [ffmpeg](https://ffmpeg.org/download.html#build-windows) and [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation). I've since discovered [LosslessCut](https://github.com/mifi/lossless-cut#download) which can cut and merge a video quickly using ffmpeg and without reencoding. You can download the executables for free.
 
 ## SCLikes.bat
 > Requires [yt-dlp](https://github.com/yt-dlp/yt-dlp#installation) or [youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html)
