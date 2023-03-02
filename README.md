@@ -87,3 +87,14 @@ Create a trimmed video using timestamps.
 - `End Time` - The time to stop the clip
 
 Drag the video onto the batch file and input the timestamps
+
+
+## spleet.bat
+> Requires [Spleeter](https://github.com/deezer/spleeter)
+
+Split an audio file into separate vocal/instrumental tracks.
+
+- `Path to song` - Drag and drop the song onto the command prompt window
+- `[2/4/5]` - The number of tracks to split the audio into: [Vocal, Remainder]/[Vocal, Drum, Bass, Remainder]/[Vocal, Drum, Bass, Piano, Remainder]
+
+It's best to have a `Spleeter` folder and place `spleet.bat` into that folder along with any song you wish to split. The first time each model is used, it will download it to a `pretrained_models` directory.
